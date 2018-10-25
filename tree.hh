@@ -48,7 +48,7 @@ void destroy_tree(tree_ptr_t tree);
           /
          9
 */
-// path_to(tree, 9) will return "LRL", path_to(tree, 3) will return "R", and
+// path_to(tree, 9) will return "LRL", path_to(tree, 3) will return "RL", and
 // path_to(126) will return "".
 // If the key isn't found in the tree, path_to may abort the program using an
 // assert() or exit() call.
